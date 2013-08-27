@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+//----------------//
+    string input;
+    bool running = true;
+    int cookies;
+    int clickers;
+    bool clickerbought;
+    int counter;
+//---------------//
+    cookies = 0;
+
+    while (running == true){
+
+        cin >> input;
+
+
+            if(input == "click"){
+                cookies = cookies + 1;
+            }
+
+            if(input == "points"){
+                cout << "You have " << cookies << endl;
+            }
+
+            if(input == "buy clicker"){
+                if(cookies < 10){
+                    cout << "Sorry! You do not have enough points! You need 10 cookies to buy a clicker." << endl;
+
+                }else{
+                    cookies = cookies - 10;
+                    clickers = clickers + 1;
+                    if(clickerbought == true){
+                    }else{
+                    clickerbought==true;
+                    }
+                    }
+                }
+    }
+    return 0;
+}
+
+// ASDASDS
